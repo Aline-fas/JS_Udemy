@@ -6,4 +6,4 @@ document.getElementById('comida').innerHTML = 'pizza'
 // outra forma de fazer é com variavel
 
 let meuNome = 'Aline'
-document.getElementById('nome').innerHTML = meuNome
+document.getElementById('nome').innerHTML = meuNome 
