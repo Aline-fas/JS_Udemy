@@ -8,7 +8,6 @@ function outcome(){
     
     if(document.getElementById('box1').checked){
         total = numero1 + numero2 
-        
     }else if(document.getElementById('box2').checked){
         total = numero1 - numero2
     }else if(document.getElementById('box3').checked){
@@ -16,8 +15,7 @@ function outcome(){
     }else{
         total = numero1 / numero2
     }
-    document.getElementById('resultArea').innerHTML = 'O resultado da operação é: '+ total
+    document.getElementById('resultArea').innerHTML = 'Result: '+ total
     
 }
 
-outcome()

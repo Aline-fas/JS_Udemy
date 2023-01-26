@@ -21,11 +21,10 @@ body {
 }
 input[type="text"] {
 	height: 40px;
-
-}
-input[type="text"] {
+	border-radius: 15px;
 	font-size: 24px;
 }
+
 button {
 	background: #4863f7;
 	border: none;
@@ -37,11 +36,12 @@ button {
 	font-family: poppins;
 	letter-spacing: 2px;
 	font-weight: bold;
+	border-radius: 50px;
 }
 input[type="radio"] {
-	width: 20px;
-	height: 20px;
+	width: 30px;
+	height: 25px;
 }
 b {
-	font-size: 30px;
+	font-size: 40px;
 }
