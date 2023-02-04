@@ -23,6 +23,8 @@ html {
     font-size: 3rem;
     margin: 0;
     padding-bottom: 3rem;
+    color: rgba(16, 16, 16, 0.771);
+    letter-spacing: 1.5px;
   }
   
   section {
