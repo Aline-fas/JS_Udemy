@@ -16,9 +16,14 @@
       <div id="gameArea">
         <section>
           <h3 id="textOutput">Seus Palpites:</h3>
+          <!-- <span id="dica"></span> -->
           <input type="number" id="inputBox" min="1" max="100"/>
         </section>
         <section class="stats">
+          <div class="info">
+            <p id="resposta"></p>
+            <span id="resultado"></span>
+          </div>
           <div class="info">
             <p>Número de tentativas:</p>
             <span id="attempts">0</span>
@@ -27,12 +32,9 @@
             <p>Seus palpites:</p>
             <span id="guesses">0</span>
           </div>
-          <div class="info">
-            <p>Dica:</p>
-            <span id="dica"></span>
-          </div>
         </section>
-        <button id="newGameButton" onclick="getNumber()">NOVO JOGO</button>
+        <button id="verificaGameButton" >VERIFICAR</button>
+        <button id="newGameButton" onclick="newGame()">NOVO JOGO </button>
       </div>
     </main>
     <script src="index.js"></script>
