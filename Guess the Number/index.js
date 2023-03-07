@@ -125,9 +125,6 @@ button.addEventListener('click', function(){
                 dica.innerHTML = '<span id="red">Você tem apenas '+ maxTentativas +' tentativas</span>'
                 // dica.innerHTML = "Você perdeu :("
             }
-            
         }
     }
-    
-
 })
